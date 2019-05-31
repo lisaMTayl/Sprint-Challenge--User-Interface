@@ -89,7 +89,7 @@ nav {
 nav a {
     padding-left: 1rem;
     text-decoration: none;
-    color: #A7A7AA;
+    color: black;
     text-align: right;
     margin: 0 0 0 auto;
 }
@@ -247,6 +247,7 @@ h1{
 .about-cards {
     border-top: 1px dashed black;
 }
+
 .card img {
     max-width: 300px;
 }
