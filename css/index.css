@@ -233,6 +233,50 @@ nav a {
     padding-right: 0;
 }
 
+.about-page {
+    width: 100%;
+}
+.about-cards {
+    width: 800px;
+    padding: auto 10px;
+}
+h1{
+    padding: 10px;
+}
+
+.about-cards {
+    border-top: 1px dashed black;
+}
+.card img {
+    max-width: 300px;
+}
+.about p {
+    padding: 0px 10px;
+}
+.row {
+    display: flex;
+    width: 90%;
+}
+.card {
+    padding: 20px 20px 10px 20px;
+    width: 48%;
+    margin: 20px;
+    text-align: left;
+    border-bottom: 1px dashed black;
+}
+
+.work-together {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
 footer {
     width: 100%;
     background: black;
