@@ -143,7 +143,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
-    height: 100px;
+    height: 300px;
     align-items: center;
     padding: 8px;
     justify-content: space-evenly;
@@ -221,7 +221,7 @@ nav a {
 }
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 5% 2% 20px;
     justify-content: space-around;
 }
 
@@ -239,15 +239,17 @@ footer {
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    display: inline-block;
     padding: 20px 2%;
     font-size: 14px;
+    margin: auto;
 }
 
 footer nav a {
+    margin: auto 30px auto auto;
+    display: inline-block;
     color: white;
     text-decoration: none;
-}
+    text-align: justify;
+    }
