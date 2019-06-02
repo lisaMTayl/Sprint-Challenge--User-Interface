@@ -70,7 +70,35 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+    margin: auto;
+    display: inline-flex;
+    padding: 2% 0;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
 
+.nav-bar {
+    display: inline-flex;
+    margin: 0;
+    flex-direction: row;
+    width:98%;
+    padding: 20px 0;
+}
+
+nav a {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    margin: 0 0 0 auto;
+}
+.nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 160px;
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,8 +109,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 1% 20px;
 }
 
 .middle-content {
@@ -104,7 +131,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,9 +138,48 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 5% 2% 20px;
     justify-content: space-around;
 }
 
@@ -126,21 +191,68 @@ p {
     padding-right: 0;
 }
 
+.about-page {
+    width: 100%;
+}
+.about-cards {
+    width: 800px;
+    padding: auto 10px;
+}
+h1{
+    padding: 10px;
+}
+
+.about-cards {
+    border-top: 1px dashed black;
+}
+
+.card img {
+    max-width: 300px;
+}
+.about p {
+    padding: 0px 10px;
+}
+.row {
+    display: flex;
+    width: 90%;
+}
+.card {
+    padding: 20px 20px 10px 20px;
+    width: 48%;
+    margin: 20px;
+    text-align: left;
+    border-bottom: 1px dashed black;
+}
+
+.work-together {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
 footer {
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    display: inline-block;
     padding: 20px 2%;
     font-size: 14px;
+    margin: auto;
 }
 
 footer nav a {
+    margin: auto 30px auto auto;
+    display: inline-block;
     color: white;
     text-decoration: none;
-}
+    text-align: justify;
+    }
