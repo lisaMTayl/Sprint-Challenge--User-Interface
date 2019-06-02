@@ -71,18 +71,47 @@ p {
     margin: 0 auto;
 }
 
+header  {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: flex-end;
+
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    width: 800px;
+}
+
+ header nav a {
+    margin: auto;
+    padding-left: 5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    text-align: left;
+}
+
+.top-content img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 800px;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 1% 20px;
 }
 
 .middle-content {
@@ -104,12 +133,69 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.forestgreen {
+    background-color: forestgreen;
+}
+
+.darkorchid {
+    background-color: darkorchid;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
+.about-middle-content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border:5px dashed yellow;
+    justify-content: space-around;
+
+}
+
+.card {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    border: 5px solid deeppink;
 }
 
 .bottom-content {
@@ -126,6 +212,11 @@ p {
     padding-right: 0;
 }
 
+
+
+
+
+
 footer {
     width: 100%;
     background: black;
@@ -135,7 +226,6 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +233,6 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
+
 }
